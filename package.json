@@ -12,7 +12,7 @@
   "scripts": {
     "start": "webpack serve",
     "prebuild": "npx rimraf ./build && npx mkdirp ./build",
-    "build": "webpack --mode production"
+    "build": "webpack --openssl-legacy-provider"
   },
   "dependencies": {
     "@types/ammo.js": "github:osman-turan/ammo.js-typings",
